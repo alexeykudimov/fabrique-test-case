@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fabrique_test_case"
+version = "0.1.0"
+description = ""
+authors = ["Alexey <work.alexeykudimov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "2.2.16"
+djangorestframework = "^3.12.4"
+drf-yasg = "^1.20.0"
+djangorestframework-simplejwt = "^4.8.0"
+psycopg2 = "2.8.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
